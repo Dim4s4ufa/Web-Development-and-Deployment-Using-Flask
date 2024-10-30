@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+        .resume-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .resume-header img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .resume-body {
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .email-form input,
+        .email-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+  <!--   Navbar -->
+  <div class="container">
+    <nav class="navbar navbar-expand navbar-light bg-light shadow shadow-sm mb-2 px-2">
+      <a class="navbar-brand" href="../index.html">
+        <img src="th.jpg" width="60px" height="auto"
+          class="d-inline-block align-top" alt="">
+      </a>
+      <div class="" id="navbarNav">
+        <ul class="navbar-nav d-flex">
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">Profile Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="form.html">Form Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Web Bootstrap/profile-bootstrap.html">Profile Bootstrap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Web Bootstrap/form-bootstrap.html">Form Bootstrap</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- Navbar End  -->
+
+    <div class="container resume-body">
+        <!-- Header -->
+        <div class="resume-header">
+          <div class="section-title">RESUME</div>
+            <img src="dimas.jpg" alt="Foto Anda" width="150">
+            <div class="section-title">DIMAS AUFA MUHAMMAD ZAKI</div>
+            <p>Jakarta, Indonesia | dimasaufa94@email.com | +6285890039007</p>
+        </div>
+
+        <!-- Ringkasan -->
+        <div class="section">
+            <div class="section-title">Ringkasan</div>
+            <p>Saya adalah mahasiswa program studi teknik informatika dari Universitas Muhammadiyah Jakarta, Saya sangat tertarik belajar AI.</p>
+        </div>
+
+        <!-- Pengalaman -->
+        <div class="section">
+            <div class="section-title">Pengalaman</div>
+            <ul>
+                <li><strong>Geng Srigala dingin</strong> - Panglima Tempur Bintang 9 (Januari 2021 - Desember 2023)
+                    <ul>
+                        <li>Memimpin pasukan</li>
+                        <li>Mengayomi anggota</li>
+                        <li>Mengadakan rapat di malam purnama</li>
+                        <li>menjaga finansial Geng Srigala dingin</li>
+                    </ul>
+                </li>
+                <li><strong>PT. ABC KOPI SUSU</strong> -HRD Bidang produksi (Agustus 2019 - Oktober 2020)
+                    <ul>
+                        <li>Masang tutup botol</li>
+                        <li>Menjaga alat agar aman</li>
+                        <li>Mengecek kualitas kopi susu</li>
+                        <li>Mengamati karyawan</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Form Email -->
+        <div class="section">
+            <div class="section-title">KIRIMI SAYA EMAIL</div>
+            <form class="email-form">
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Subjek Email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Isi Pesan" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Kirim Email</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
